@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --gris-tipografia: #575757;
+    --negro-tipografia: #333333;
+    --verde-labels-hover: #529F0F;
+    --font-family: 'Lora', serif;
+    --font-family: 'Playfair Display', serif;
+    --font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    min-width: 320px;
+}
+
+.header-logo{
+    width: 150px;
+    height: 24px;
+    margin: 30px 30px;
+}
+
+header div{
+    width: 150px;
+    height: 24px;
+    display: flex;
+}
