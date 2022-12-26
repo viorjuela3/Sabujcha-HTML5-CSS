@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500;700&family=Work+Sans:wght@500;700&display=swap" rel="stylesheet">
@@ -12,15 +13,42 @@
 </head>
 <body>
 
-    <header>
-        <img src="./assets/img/logo.png" alt="Logo Sabujcha" class="header-logo">
-        <div>
-            <p>USD<span></span></p>
-            <img src="./assets/icons/menu.png.png" alt="Icono del despliegue de menu">
-            <img src="./assets/icons/carrito-de-compras.png" alt="Icono del carrito de compras">
-        </div>
-
+    <header>        
+        <nav>
+            <ul class="list-menu">
+                <li>
+                    <a href="/">HOME</a>
+                </li>               
+                <li>
+                    <a href="/">ABOUT</a>
+                </li>
+                <li>
+                    <a href="/">BLOG</a>
+                </li>                
+                <li>
+                    <a href="/">PAGES</a>
+                </li>
+                <li>
+                    <a href="/">CONTACT</a>
+                </li>
+            </ul>
+            <img src="./assets/img/logo.png" alt="Logo Sabujcha" class="logo-sabujcha">
+            <div class="nav-left">
+                <p class="idioma">USD</p>                       
+                <img src="./assets/icons/flecha-hacia-abajo.png" alt="Despliegue opciones de idioma" class="icono-despliegue">               
+                <img src="./assets/icons/menu.png" alt="Icono menu desplegable" class="menu">              
+                <img src="./assets/icons/carrito-de-compras.png" alt="Icono carro de compras" class="shopping-cart">               
+            </div>
+        </nav>       
     </header>
+
+    <section class="giro">
+        <div>
+            <img src="./assets/img/slider-2.jpg" alt="">
+            <h1>Want to stay healthy drink matcha.</h1>
+            
+        </div>
+    </section>
     
 </body>
 </html>
