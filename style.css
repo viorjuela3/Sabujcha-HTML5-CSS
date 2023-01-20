@@ -18,7 +18,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 html{
@@ -158,6 +158,10 @@ nav .list-menu li a{
     background-size: cover;
 }
 
+.container-latest-product img{
+    width: 220px;
+}
+
 .detail-latest-product h2{
     font-size: 2rem;
     font-family:'Playfair Display', serif;
@@ -234,4 +238,102 @@ nav .list-menu li a{
     text-align: center;
     color: var(--gris-tipografia);
     font-size: 1rem;
+}
+
+.new-product{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.info-new-produt{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.info-new-produt h2{
+    font-size: 2rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.info-new-produt p{
+    font-size: 1rem;
+}
+
+.description-new-product{
+    font-family: 'Work Sans', sans-serif;
+    color: var(--gris-tipografia);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1.5rem 0 1.5rem 0;
+
+}
+
+.price-new-product{
+    font-family: 'Work Sans', sans-serif;
+    color: var(--gris-tipografia);
+   
+    font-size: 1rem;
+   
+}
+
+.container-benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.login-customers {
+    background-image: url('./assets/img/bg-2.jpg');
+    
+}
+
+.login-customers p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 8rem 0 5rem 0;
+    border-left: 0px;
+
+}
+
+.login-customers form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.login-customers input{
+    border: solid 1px  grey;
+    text-align: center;
+    border-right: 0px;
+    padding: 10px 0 10px 0;
+}
+
+
+.login-customers button{
+    color: var(--blanco);
+    background-color: #000000;
+    border: solid 1px #000000;
+    padding: 0 5px 0 5px;
+}
+
+.container-latest-news{
+    background-image: url('./assets/img/bg-1.jpg');
+}
+
+.card-latest-new img{
+    width: 220px;
+    padding: 15px 0 10px 0;
+}
+.card-latest-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
